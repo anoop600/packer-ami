@@ -1,3 +1,4 @@
 #!/bin/bash
 
-packer build ./jenkins/jenkinsPacker.json
+cd ./jenkins
+packer build jenkinsPacker.json
