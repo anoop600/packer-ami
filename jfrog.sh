@@ -2,3 +2,4 @@
 
 cd ./jfrog
 packer build jfrogPacker.json
+
