@@ -22,7 +22,7 @@
     "ssh_username": "ubuntu",
     "ami_name": "packer-selenium-{{timestamp}}",
     "type": "amazon-ebs",
-    "communicator":"ssh"
+    "communicator":"ssh",
     "tags": {
         "Name": "Packer-Selenium"
     }
