@@ -1,5 +1,7 @@
 node {
-
+    stage('Preparation'){
+        git 'https://github.com/Devops-Accelerators/packer-ami.git'
+    }
 //  stage('Jenkins'){
 //      sh "./jenkins.sh"
 //  }
