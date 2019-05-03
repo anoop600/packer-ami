@@ -17,7 +17,7 @@ node {
   //}
 
   stage('Tomcat'){
-      sh "./tomcat.sh"
+      sh "sh tomcat.sh"
   }
 
 }
