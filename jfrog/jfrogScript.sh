@@ -1,5 +1,4 @@
-sudo apt-get update -y
-sudo apt install openjdk-8-jdk -y
+sudo apt-get update -y && sudo apt install openjdk-8-jdk -y
 
 sleep 5
 
