@@ -1,14 +1,14 @@
 node {
-    //stage('Preparation'){
-      //  git 'https://github.com/Devops-Accelerators/packer-ami.git'
-    //}
-  stage('Jenkins'){
-      sh "./jenkins.sh"
-  }
+    stage('Preparation'){
+      sh "chmod u+x *.sh"
+    }
+  //stage('Jenkins'){
+   //   sh "./jenkins.sh"
+  //}
 
-//  stage('JFrog'){
-  //    sh "./jfrog.sh"
- // }
+  stage('JFrog'){
+      sh "./jfrog.sh"
+  }
 
   //stage('Locust'){
     //  sh "./locust.sh"
