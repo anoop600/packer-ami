@@ -2,7 +2,6 @@ node {
 
    stage('Preparation') {
       git 'https://github.com/Devops-Accelerators/packer-ami.git'
-      mvnHome = tool 'MAVEN'
    }
     stage('Preparation'){
       sh "chmod u+x *.sh"
