@@ -26,5 +26,9 @@ node {
       sh "sh tomcat.sh"
   }
 
+  stage('Sonarqube'){
+      sh "sh sonarqube.sh"
+  }
+
 }
  
