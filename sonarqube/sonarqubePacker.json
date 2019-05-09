@@ -22,7 +22,11 @@
     "ssh_username": "ubuntu",
     "ami_name": "packer-sonarqube-{{timestamp}}",
     "type": "amazon-ebs",
-		"communicator":"ssh"
+    "communicator":"ssh",
+    "tags": {
+        "Name": "Packer-Sonarqube"
+    }
+
     
   }],
   "provisioners": [
