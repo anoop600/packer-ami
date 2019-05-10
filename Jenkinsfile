@@ -2,8 +2,6 @@ node {
 
    stage('Preparation') {
       git 'https://github.com/Devops-Accelerators/packer-ami.git'
-   }
-    stage('Preparation'){
       sh "chmod u+x *.sh"
     }
   stage('Jenkins'){
