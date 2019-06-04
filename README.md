@@ -11,7 +11,7 @@ provisioned by the scripts.
 - JAVA : 8
 - Port : 8080
 ```
-Jfrog Artifactory
+**Jfrog Artifactory**
 ```
 - Version : 6.9.1 (Binary From public S3 bucket)
 - JAVA : 8
@@ -19,12 +19,12 @@ Jfrog Artifactory
 - Other Instalations : unzip
 - Creds : (admin/admin)
 ```
-Locust
+**Locust**
 ```
 - Version : Latest (pip instalation)
 - Other Instalations : python-pip
 ```
-Selenium
+**Selenium**
 ```
 - Version : 3.13.0 (jar download)
 - JAVA : 8
@@ -32,7 +32,7 @@ Selenium
 - Chrome driver : 2.41
 - Other Instalations : unzip
 ```
-Sonarqube
+**Sonarqube**
 ```
 - Version : 7.7 (Binary from sonarsource.com)
 - JAVA : 8
@@ -40,7 +40,7 @@ Sonarqube
 - Port : 80 (reverse proxy)
 - Other Instalations : htop, nginx(latest), unzip
 ```
-Tomcat
+**Tomcat**
 ```
 - Version : 8.5.40 (Binary From public S3 bucket)
 - JAVA : 8
