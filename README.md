@@ -6,7 +6,7 @@ If you wish to run individual tools just run the relevent script. It also contai
 change the packer ami name in any of the scripts as terraform files query the ami's by their name. Below are the details of the tools
 provisioned by the scripts.
 ```
-Jenkins
+*Jenkins*
 ```
 - Version : Latest (apt-get package installer)
 - JAVA : 8
