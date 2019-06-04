@@ -8,42 +8,42 @@ provisioned by the scripts.
 
 Jenkins
 ```
->* Version : Latest (apt-get package installer)
->* JAVA : 8
->* Port : 8080
+- Version : Latest (apt-get package installer)
+- JAVA : 8
+- Port : 8080
 ```
 Jfrog Artifactory
 ```
->- Version : 6.9.1 (Binary From public S3 bucket)
->- JAVA : 8
->- Port : 8081
->- Other Instalations : unzip
->- Creds : (admin/admin)
+- Version : 6.9.1 (Binary From public S3 bucket)
+- JAVA : 8
+- Port : 8081
+- Other Instalations : unzip
+- Creds : (admin/admin)
 ```
 Locust
 ```
->- Version : Latest (pip instalation)
->- Other Instalations : python-pip
+- Version : Latest (pip instalation)
+- Other Instalations : python-pip
 ```
 Selenium
 ```
->- Version : 3.13.0 (jar download)
->- JAVA : 8
->- Port : 4444
->- Chrome driver : 2.41
->- Other Instalations : unzip
+- Version : 3.13.0 (jar download)
+- JAVA : 8
+- Port : 4444
+- Chrome driver : 2.41
+- Other Instalations : unzip
 ```
 Sonarqube
 ```
->- Version : 7.7 (Binary from sonarsource.com)
->- JAVA : 8
->- MySQL : latest (root/root)
->- Port : 80 (reverse proxy)
->- Other Instalations : htop, nginx(latest), unzip
+- Version : 7.7 (Binary from sonarsource.com)
+- JAVA : 8
+- MySQL : latest (root/root)
+- Port : 80 (reverse proxy)
+- Other Instalations : htop, nginx(latest), unzip
 ```
 Tomcat
 ```
->- Version : 8.5.40 (Binary From public S3 bucket)
->- JAVA : 8
->- Port : 8080
+- Version : 8.5.40 (Binary From public S3 bucket)
+- JAVA : 8
+- Port : 8080
 ```
