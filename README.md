@@ -5,7 +5,7 @@ repository [Terraform_Repository](https://github.com/Devops-Accelerators/terrafo
 If you wish to run individual tools just run the relevent script. It also contains Jenkinsfile to trigger your jenkins job. Do not
 change the packer ami name in any of the scripts as terraform files query the ami's by their name. Below are the details of the tools
 provisioned by the scripts.
-```
+
 Jenkins
 ```
 >* Version : Latest (apt-get package installer)
@@ -46,3 +46,4 @@ Tomcat
 >- Version : 8.5.40 (Binary From public S3 bucket)
 >- JAVA : 8
 >- Port : 8080
+```
