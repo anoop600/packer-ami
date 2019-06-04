@@ -8,9 +8,9 @@ provisioned by the scripts.
 ```
 Jenkins
 ```
->- Version : Latest (apt-get package installer)
->- JAVA : 8
->- Port : 8080
+>* Version : Latest (apt-get package installer)
+>* JAVA : 8
+>* Port : 8080
 ```
 Jfrog Artifactory
 ```
