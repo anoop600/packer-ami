@@ -5,13 +5,13 @@ If you wish to run individual tools just run the relevent script. It also contai
 change the packer ami name in any of the scripts as terraform files query the ami's by their name. Below are the details of the tools
 provisioned by the scripts.
 
-**Jenkins**
+**1. Jenkins**
 ```
 - Version : Latest (apt-get package installer)
 - JAVA : 8
 - Port : 8080
 ```
-**Jfrog Artifactory**
+**2. Jfrog Artifactory**
 ```
 - Version : 6.9.1 (Binary From public S3 bucket)
 - JAVA : 8
@@ -19,12 +19,12 @@ provisioned by the scripts.
 - Other Instalations : unzip
 - Creds : (admin/admin)
 ```
-**Locust**
+**3. Locust**
 ```
 - Version : Latest (pip instalation)
 - Other Instalations : python-pip
 ```
-**Selenium**
+**4. Selenium**
 ```
 - Version : 3.13.0 (jar download)
 - JAVA : 8
@@ -32,7 +32,7 @@ provisioned by the scripts.
 - Chrome driver : 2.41
 - Other Instalations : unzip
 ```
-**Sonarqube**
+**5. Sonarqube**
 ```
 - Version : 7.7 (Binary from sonarsource.com)
 - JAVA : 8
@@ -40,7 +40,7 @@ provisioned by the scripts.
 - Port : 80 (reverse proxy)
 - Other Instalations : htop, nginx(latest), unzip
 ```
-**Tomcat**
+**6. Tomcat**
 ```
 - Version : 8.5.40 (Binary From public S3 bucket)
 - JAVA : 8
