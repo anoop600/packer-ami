@@ -1,5 +1,5 @@
 sudo apt-get update -y && sudo apt install openjdk-8-jdk -y
-sudo echo "America/Chicago" > /etc/timezone
+sudo echo "Asia/Kolkata" > /etc/timezone
 sudo dpkg-reconfigure -f noninteractive tzdata
 echo "JAVA is Installed"
 sudo apt-get -y install zsh htop
